@@ -10,9 +10,9 @@ import SwiftUI
 
 // MARK: - ListView.swift
 
-struct ListView<ViewModel: ListViewModel, Router: ObservableObject>: View where Router: ListRouter {
-    @StateObject var viewModel: ViewModel
-    @StateObject var router: Router
+struct ListView: View {
+    @State var viewModel: ListViewModel
+    @State var router: ListRouter
 
 
     var body: some View {

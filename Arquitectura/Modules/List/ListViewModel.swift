@@ -9,14 +9,16 @@
 
 import Foundation
 import Combine
+import Observation
 
-protocol ListViewModel: ObservableObject {
+protocol ListViewModel {
     var state: ListState { get }
     func loadItems() async
 }
 
+@Observable
 final class ListViewModelImpl: ListViewModel {
-    @Published private(set) var state: ListState = .loading()
+    private(set) var state: ListState = .loading()
     private var hasLoadedData = false
     private let useCase: ListUseCase
 
