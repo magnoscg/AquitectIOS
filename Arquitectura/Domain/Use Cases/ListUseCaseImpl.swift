@@ -7,16 +7,12 @@
 
 import Foundation
 
-// MARK: - ListUseCase.swift
-
-protocol ListUseCase {
-    func getItems() async throws -> [ListItem]
-}
+// MARK: - ListUseCaseImpl.swift
 
 struct ListUseCaseImpl: ListUseCase {
     private let repository: ListRepository
 
-    init(repository: ListRepository = ListRepositoryImpl()) {
+    init(repository: ListRepository) {
         self.repository = repository
     }
 

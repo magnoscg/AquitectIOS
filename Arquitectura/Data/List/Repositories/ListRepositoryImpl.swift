@@ -8,11 +8,7 @@
 import Foundation
 
 
-// MARK: - ListRepository
-
-protocol ListRepository {
-    func fetchItems() async throws -> [ListItem]
-}
+// MARK: - ListRepository Implementaion
 
 struct ListRepositoryImpl: ListRepository {
     private let remoteDataSource: ListDataSource

@@ -22,7 +22,7 @@ final class ListViewModelImpl: ListViewModel {
     private var hasLoadedData = false
     private let useCase: ListUseCase
 
-    init(useCase: ListUseCase = ListUseCaseImpl()) {
+    init(useCase: ListUseCase) {
         self.useCase = useCase
     }
 
