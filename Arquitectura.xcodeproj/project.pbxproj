@@ -110,10 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				3A477A082CA9B62E00F2762D /* ArquitecturaApp.swift */,
+				B77FBD932CBBC01C000447A8 /* List */,
 				B77FBD902CBA7332000447A8 /* Infra-Network */,
-				B77FBD7F2CBA64C8000447A8 /* Data */,
-				B77FBD7E2CBA64BA000447A8 /* Domain */,
-				B77FBD7D2CBA6490000447A8 /* Presentation */,
 				B77FBD8B2CBA6A09000447A8 /* Mocks */,
 				3A477A0C2CA9B63200F2762D /* Assets.xcassets */,
 				3A477A0E2CA9B63200F2762D /* Preview Content */,
@@ -294,6 +292,16 @@
 			children = (
 				B77FBD842CBA6796000447A8 /* Network */,
 				B77FBD882CBA684B000447A8 /* Repositories */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B77FBD932CBBC01C000447A8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD7F2CBA64C8000447A8 /* Data */,
+				B77FBD7E2CBA64BA000447A8 /* Domain */,
+				B77FBD7D2CBA6490000447A8 /* Presentation */,
 			);
 			path = List;
 			sourceTree = "<group>";
