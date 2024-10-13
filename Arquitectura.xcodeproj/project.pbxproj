@@ -13,9 +13,9 @@
 		3A477A1A2CA9B75400F2762D /* ListAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A477A192CA9B75400F2762D /* ListAssembler.swift */; };
 		3A50FD962CAAB53F00F0E531 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD952CAAB53F00F0E531 /* ListView.swift */; };
 		3A50FD982CAAB57300F0E531 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD972CAAB57300F0E531 /* ListViewModel.swift */; };
-		3A50FD9A2CAAB5DA00F0E531 /* ListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD992CAAB5DA00F0E531 /* ListUseCase.swift */; };
+		3A50FD9A2CAAB5DA00F0E531 /* ListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD992CAAB5DA00F0E531 /* ListUseCaseImpl.swift */; };
 		3A50FD9C2CAAB5EA00F0E531 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD9B2CAAB5EA00F0E531 /* ListRouter.swift */; };
-		3A50FD9E2CAABC5000F0E531 /* ListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD9D2CAABC5000F0E531 /* ListRepository.swift */; };
+		3A50FD9E2CAABC5000F0E531 /* ListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD9D2CAABC5000F0E531 /* ListRepositoryImpl.swift */; };
 		3A50FDA02CAABCCA00F0E531 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FD9F2CAABCCA00F0E531 /* ListItem.swift */; };
 		3A50FDA22CAAC37000F0E531 /* ListRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FDA12CAAC37000F0E531 /* ListRemoteDatasource.swift */; };
 		3A50FDA42CAAC41500F0E531 /* ListLocalDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FDA32CAAC41500F0E531 /* ListLocalDatasource.swift */; };
@@ -38,6 +38,8 @@
 		3A50FDC82CAADB8E00F0E531 /* BasicAuthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FDC72CAADB8E00F0E531 /* BasicAuthHeader.swift */; };
 		3A50FDCB2CAADD2A00F0E531 /* ListDataSourceParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FDCA2CAADD2A00F0E531 /* ListDataSourceParams.swift */; };
 		3A50FDCE2CAAF12700F0E531 /* ListMockDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50FDCD2CAAF12700F0E531 /* ListMockDTO.swift */; };
+		B77FBD872CBA6803000447A8 /* ListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77FBD862CBA67FB000447A8 /* ListRepository.swift */; };
+		B77FBD8F2CBA71EC000447A8 /* ListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77FBD8E2CBA71E6000447A8 /* ListUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +50,9 @@
 		3A477A192CA9B75400F2762D /* ListAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAssembler.swift; sourceTree = "<group>"; };
 		3A50FD952CAAB53F00F0E531 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3A50FD972CAAB57300F0E531 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		3A50FD992CAAB5DA00F0E531 /* ListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUseCase.swift; sourceTree = "<group>"; };
+		3A50FD992CAAB5DA00F0E531 /* ListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUseCaseImpl.swift; sourceTree = "<group>"; };
 		3A50FD9B2CAAB5EA00F0E531 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
-		3A50FD9D2CAABC5000F0E531 /* ListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
+		3A50FD9D2CAABC5000F0E531 /* ListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepositoryImpl.swift; sourceTree = "<group>"; };
 		3A50FD9F2CAABCCA00F0E531 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		3A50FDA12CAAC37000F0E531 /* ListRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRemoteDatasource.swift; sourceTree = "<group>"; };
 		3A50FDA32CAAC41500F0E531 /* ListLocalDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLocalDatasource.swift; sourceTree = "<group>"; };
@@ -73,6 +75,8 @@
 		3A50FDC72CAADB8E00F0E531 /* BasicAuthHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAuthHeader.swift; sourceTree = "<group>"; };
 		3A50FDCA2CAADD2A00F0E531 /* ListDataSourceParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataSourceParams.swift; sourceTree = "<group>"; };
 		3A50FDCD2CAAF12700F0E531 /* ListMockDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMockDTO.swift; sourceTree = "<group>"; };
+		B77FBD862CBA67FB000447A8 /* ListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
+		B77FBD8E2CBA71E6000447A8 /* ListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +109,10 @@
 		3A477A072CA9B62E00F2762D /* Arquitectura */ = {
 			isa = PBXGroup;
 			children = (
-				3A477A162CA9B70400F2762D /* Modules */,
 				3A477A082CA9B62E00F2762D /* ArquitecturaApp.swift */,
+				B77FBD932CBBC01C000447A8 /* List */,
+				B77FBD902CBA7332000447A8 /* Infra-Network */,
+				B77FBD8B2CBA6A09000447A8 /* Mocks */,
 				3A477A0C2CA9B63200F2762D /* Assets.xcassets */,
 				3A477A0E2CA9B63200F2762D /* Preview Content */,
 			);
@@ -121,51 +127,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3A477A162CA9B70400F2762D /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				3A50FDC92CAADBB200F0E531 /* Common */,
-				3A50FDBE2CAADA3200F0E531 /* Environment */,
-				3A477A182CA9B71200F2762D /* Detail */,
-				3A477A172CA9B70C00F2762D /* List */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		3A477A172CA9B70C00F2762D /* List */ = {
-			isa = PBXGroup;
-			children = (
-				3A50FDCC2CAAE87A00F0E531 /* Domain */,
-				3A477A192CA9B75400F2762D /* ListAssembler.swift */,
-				3A50FD9F2CAABCCA00F0E531 /* ListItem.swift */,
-				3A50FD9B2CAAB5EA00F0E531 /* ListRouter.swift */,
-				3A50FD952CAAB53F00F0E531 /* ListView.swift */,
-				3A50FD972CAAB57300F0E531 /* ListViewModel.swift */,
-				3A50FD992CAAB5DA00F0E531 /* ListUseCase.swift */,
-				3A50FDA72CAAC5C700F0E531 /* ListState.swift */,
-				3A50FDA92CAAC8A400F0E531 /* ListContentView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		3A477A182CA9B71200F2762D /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		3A50FDAD2CAACCAA00F0E531 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				3A50FDAE2CAACCD200F0E531 /* APIClient.swift */,
-				3A50FDB02CAACD0D00F0E531 /* APIError.swift */,
-				3A50FDAB2CAACC4000F0E531 /* Endpoints.swift */,
-				3A50FDB22CAACD8100F0E531 /* APIResponse.swift */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
 		3A50FDBE2CAADA3200F0E531 /* Environment */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,33 +136,174 @@
 			path = Environment;
 			sourceTree = "<group>";
 		};
-		3A50FDC92CAADBB200F0E531 /* Common */ = {
+		B77FBD7D2CBA6490000447A8 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				3A50FDAD2CAACCAA00F0E531 /* Domain */,
-				3A50FDC52CAADB5500F0E531 /* AppVersionHeader.swift */,
-				3A50FDC72CAADB8E00F0E531 /* BasicAuthHeader.swift */,
-				3A50FDBA2CAAD9A700F0E531 /* QueryCreatorType.swift */,
-				3A50FDC32CAADADE00F0E531 /* URLRequestHeader.swift */,
-				3A50FDBC2CAADA0100F0E531 /* Credentials.swift */,
+				B77FBD802CBA65A3000447A8 /* List */,
 			);
-			path = Common;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
-		3A50FDCC2CAAE87A00F0E531 /* Domain */ = {
+		B77FBD7E2CBA64BA000447A8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD832CBA66F5000447A8 /* Entities */,
+				B77FBD852CBA67AA000447A8 /* Repositories */,
+				B77FBD8D2CBA719F000447A8 /* Use Cases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B77FBD7F2CBA64C8000447A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD922CBA7401000447A8 /* List */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B77FBD802CBA65A3000447A8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3A477A192CA9B75400F2762D /* ListAssembler.swift */,
+				3A50FD9B2CAAB5EA00F0E531 /* ListRouter.swift */,
+				B77FBD812CBA65B2000447A8 /* View */,
+				B77FBD822CBA65B6000447A8 /* ViewModel */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B77FBD812CBA65B2000447A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FD952CAAB53F00F0E531 /* ListView.swift */,
+				3A50FDA92CAAC8A400F0E531 /* ListContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B77FBD822CBA65B6000447A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FD972CAAB57300F0E531 /* ListViewModel.swift */,
+				3A50FDA72CAAC5C700F0E531 /* ListState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B77FBD832CBA66F5000447A8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FD9F2CAABCCA00F0E531 /* ListItem.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B77FBD842CBA6796000447A8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FDB82CAAD97C00F0E531 /* ListURLComponentsCreator.swift */,
+				B77FBD8C2CBA6F67000447A8 /* Datasources */,
+				B77FBD8A2CBA68A7000447A8 /* Mappers */,
+				B77FBD892CBA6885000447A8 /* DTOs */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B77FBD852CBA67AA000447A8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD862CBA67FB000447A8 /* ListRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B77FBD882CBA684B000447A8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FD9D2CAABC5000F0E531 /* ListRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B77FBD892CBA6885000447A8 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FDB42CAACE4200F0E531 /* ListItemDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		B77FBD8A2CBA68A7000447A8 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FDB62CAACEC100F0E531 /* ListMapperDTO.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		B77FBD8B2CBA6A09000447A8 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FDCD2CAAF12700F0E531 /* ListMockDTO.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B77FBD8C2CBA6F67000447A8 /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
 				3A50FDA32CAAC41500F0E531 /* ListLocalDatasource.swift */,
 				3A50FDA12CAAC37000F0E531 /* ListRemoteDatasource.swift */,
-				3A50FD9D2CAABC5000F0E531 /* ListRepository.swift */,
-				3A50FDB42CAACE4200F0E531 /* ListItemDTO.swift */,
-				3A50FDCD2CAAF12700F0E531 /* ListMockDTO.swift */,
-				3A50FDB62CAACEC100F0E531 /* ListMapperDTO.swift */,
-				3A50FDB82CAAD97C00F0E531 /* ListURLComponentsCreator.swift */,
 				3A50FDA52CAAC42200F0E531 /* ListDatasource.swift */,
 				3A50FDCA2CAADD2A00F0E531 /* ListDataSourceParams.swift */,
 			);
-			path = Domain;
+			path = Datasources;
+			sourceTree = "<group>";
+		};
+		B77FBD8D2CBA719F000447A8 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD8E2CBA71E6000447A8 /* ListUseCase.swift */,
+				3A50FD992CAAB5DA00F0E531 /* ListUseCaseImpl.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		B77FBD902CBA7332000447A8 /* Infra-Network */ = {
+			isa = PBXGroup;
+			children = (
+				3A50FDBE2CAADA3200F0E531 /* Environment */,
+				3A50FDC72CAADB8E00F0E531 /* BasicAuthHeader.swift */,
+				3A50FDBA2CAAD9A700F0E531 /* QueryCreatorType.swift */,
+				3A50FDC32CAADADE00F0E531 /* URLRequestHeader.swift */,
+				3A50FDAE2CAACCD200F0E531 /* APIClient.swift */,
+				3A50FDB02CAACD0D00F0E531 /* APIError.swift */,
+				3A50FDAB2CAACC4000F0E531 /* Endpoints.swift */,
+				3A50FDB22CAACD8100F0E531 /* APIResponse.swift */,
+				3A50FDC52CAADB5500F0E531 /* AppVersionHeader.swift */,
+				3A50FDBC2CAADA0100F0E531 /* Credentials.swift */,
+			);
+			path = "Infra-Network";
+			sourceTree = "<group>";
+		};
+		B77FBD922CBA7401000447A8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD842CBA6796000447A8 /* Network */,
+				B77FBD882CBA684B000447A8 /* Repositories */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B77FBD932CBBC01C000447A8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B77FBD7F2CBA64C8000447A8 /* Data */,
+				B77FBD7E2CBA64BA000447A8 /* Domain */,
+				B77FBD7D2CBA6490000447A8 /* Presentation */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +382,9 @@
 				3A50FD982CAAB57300F0E531 /* ListViewModel.swift in Sources */,
 				3A50FDA62CAAC42200F0E531 /* ListDatasource.swift in Sources */,
 				3A50FD9C2CAAB5EA00F0E531 /* ListRouter.swift in Sources */,
-				3A50FD9A2CAAB5DA00F0E531 /* ListUseCase.swift in Sources */,
+				3A50FD9A2CAAB5DA00F0E531 /* ListUseCaseImpl.swift in Sources */,
+				B77FBD872CBA6803000447A8 /* ListRepository.swift in Sources */,
+				B77FBD8F2CBA71EC000447A8 /* ListUseCase.swift in Sources */,
 				3A50FDB32CAACD8100F0E531 /* APIResponse.swift in Sources */,
 				3A50FDB52CAACE4200F0E531 /* ListItemDTO.swift in Sources */,
 				3A50FDA42CAAC41500F0E531 /* ListLocalDatasource.swift in Sources */,
@@ -295,7 +399,7 @@
 				3A50FDBD2CAADA0100F0E531 /* Credentials.swift in Sources */,
 				3A50FDAC2CAACC4000F0E531 /* Endpoints.swift in Sources */,
 				3A50FDC02CAADA4E00F0E531 /* AppPlist.swift in Sources */,
-				3A50FD9E2CAABC5000F0E531 /* ListRepository.swift in Sources */,
+				3A50FD9E2CAABC5000F0E531 /* ListRepositoryImpl.swift in Sources */,
 				3A50FDC62CAADB5500F0E531 /* AppVersionHeader.swift in Sources */,
 				3A50FDB12CAACD0D00F0E531 /* APIError.swift in Sources */,
 				3A477A1A2CA9B75400F2762D /* ListAssembler.swift in Sources */,
